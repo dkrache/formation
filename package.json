@@ -24,10 +24,11 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
+    "gulp-sonar": "^2.0.0",
     "karma": "^0.12.24",
     "karma-chrome-launcher": "^0.1.5",
+    "karma-cli": "0.0.4",
     "karma-jasmine": "^0.1.5",
-    "mocha": "^2.0.1",
-    "karma-cli": "0.0.4"
+    "mocha": "^2.0.1"
   }
 }
