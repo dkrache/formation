@@ -12,7 +12,7 @@ var express 	= require('express'),
 var app = express();
 var server = http.createServer(app);
 
-app.set('port', process.env.PORT || 3001);
+app.set('port', process.env.PORT || 80);
 app.use(serveStatic(path.join(__dirname, 'app')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
